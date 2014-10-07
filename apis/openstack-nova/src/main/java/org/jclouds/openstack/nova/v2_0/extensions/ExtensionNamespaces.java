@@ -116,7 +116,13 @@ public final class ExtensionNamespaces {
     */
    public static final String CONSOLES = "http://docs.openstack.org/compute/ext/os-consoles/api/v2";
 
-   private ExtensionNamespaces() {
+   /**
+   * OS-Services extension
+   */
+   public static final String OS_SERVICES = "http://docs.openstack.org/compute/ext/services/api/v2";
+
+
+    private ExtensionNamespaces() {
       throw new AssertionError("intentionally unimplemented");
    }
 }
